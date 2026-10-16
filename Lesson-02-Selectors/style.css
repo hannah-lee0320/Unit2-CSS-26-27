@@ -1,0 +1,9 @@
+h1, h2 {font-family: 'Courier New', Courier, monospace}
+.player-card p {color:#F2B705}
+.player-card btn {background-color:#F2B705}
+
+#banner {border-bottom: 3xp solid #5ADB8C}
+
+.about {font-style:italic}
+
+.tag, .stat {font-weight:bold}
