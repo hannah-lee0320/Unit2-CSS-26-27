@@ -1,0 +1,35 @@
+/* style.css · squad page (after Lesson 2A) */
+
+body {
+    background-color: #101A2B;
+    color: #EAF0F7;
+    font-family:'Times New Roman', Times, serif
+}
+
+h1 {
+    color: #5ADB8C;
+    font-size: 40px;
+}
+
+.tag {
+    background-color: #2B3F5F;
+    color: #5ADB8C;
+}
+
+/* only the captain: # = id */
+#captain {
+    border: 2px solid #F2B705;
+}
+/* descendant (space): */
+.player-card p{color:#AEC0D8}
+
+/* comma = "and": one rule, two selectors */
+h2, h3 {
+    color: #F2B705;
+}
+
+/* links inside the nav: readable on navy */
+nav a {
+    color: white;
+}
+/* child (>) means nested directly inside */
