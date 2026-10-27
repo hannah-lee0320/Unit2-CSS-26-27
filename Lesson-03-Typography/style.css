@@ -43,17 +43,31 @@ li + li {
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
+
+
+/* STEP 1 ▸ the two fonts: body, then h1, h2, h3 */
 h1, h2, h3{
     /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif */
     font-family: "Bytesized", sans-serif;
-}
-
-/* STEP 1 ▸ the two fonts: body, then h1, h2, h3 */
-
+    font-weight:700}
 /* STEP 2 ▸ sizes in rem, room between the lines */
-
+h1{
+    font-size:3rem;
+}
+h2{
+    font-size:2rem;
+}
+p{
+    line-height: 1.5;
+}
 /* STEP 3 ▸ small uppercase labels: .eyebrow and nav a */
-
+.eyebrow, nav a {
+    text-transform: uppercase;
+    letter-spacing:0.12em;
+    font-size:0.9rem;
+    font-weight:900;
+}
 /* CHECK ▸ every paragraph easy to read from your seat? */
 
 /* DONE EARLY ▸ the Extra slide: text-shadow, link underlines */
