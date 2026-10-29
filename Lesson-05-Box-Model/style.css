@@ -113,5 +113,7 @@ section{
     border: 2px dashed #52b705;
     background-color: #2a2410;
     border-radius: 10px;
+    margin-top:0;
+    margin-bottom: 24px
 }
 /* STEP 4 ▸ room below the notice */
