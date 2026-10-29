@@ -104,6 +104,9 @@ section{
 /* padding: 4px 24px 16px;   /'* top, left+right, bottom */
 /* padding: 1px 2px 3px 4px; /'* top right bottom left */
 /* STEP 3 ▸ count padding and border inside the width */
+*{
+    box-sizing:border-box
+}
 .notice{
     width: 100%;
     padding: 12px 20px;
