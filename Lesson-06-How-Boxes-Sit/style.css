@@ -114,12 +114,29 @@ section {
 
 /* Lesson 5 · room below the notice */
 .notice {
+    display: inline-block;
+    width: auto;
     margin-top: 0;
     margin-bottom: 24px;
 }
 
 /* STEP 1 ▸ nav links become buttons */
-
+nav a{
+    padding: 6px 14px;
+    border: 1px solid #5ADB8C;
+    border-radius: 6px;
+}
 /* STEP 2 ▸ center main */
+main{
+    max-width:760px;
+    margin: 0 auto;
+}
 
 /* STEP 3 ▸ center the footer text */
+footer{
+    text-align: start;
+
+    text-align: end;
+
+    text-align: center;
+}
