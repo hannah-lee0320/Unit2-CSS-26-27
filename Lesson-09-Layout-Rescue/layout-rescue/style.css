@@ -40,10 +40,10 @@ section, footer { padding: 48px 32px; }
 
 /* SECTION 1 - nav: logo on the left, links on the right,
    both centered up and down. The 4 links sit in a row. */
-/* why: */
+/* why: after doing flex, I made the logo and links on opposite sides.
+I then did felx on the links to make them go horizontally.*/
 .nav {
    display: flex;
-   align-items: center;
    justify-content: space-between;
 }
 .links {
@@ -52,7 +52,7 @@ section, footer { padding: 48px 32px; }
 
 /* SECTION 2 - hero: title, line and button stacked in a
    column, centered left-right AND up-down in the green box. */
-/* why: */
+/* why: after doing flex, i centered it vertically and horizontally*/
 .hero {
    display: flex;
    flex-direction: column;
@@ -62,7 +62,7 @@ section, footer { padding: 48px 32px; }
 
 /* SECTION 3 - features: 3 cards in one row, equal widths,
    24px apart. */
-/* why: */
+/* why: 3 1frs make three equal columns and gap 24px makes a gap of 24 px*/
 .features {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
@@ -72,7 +72,7 @@ section, footer { padding: 48px 32px; }
 }
 
 /* SECTION 4 - gallery: 3 columns, 2 rows, 16px gaps. */
-/* why: */
+/* why: I made a grid with 3 equal sections and gap of 16px*/
 .gallery {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
@@ -81,7 +81,7 @@ section, footer { padding: 48px 32px; }
 
 /* SECTION 5 - bento: 4 columns. The big tile is 2 columns
    wide and 2 rows tall; the 4 small tiles fill the rest. */
-/* why: */
+/* why: I made a grid with 4 equal columns and gap fo 16px.*/
 .bento {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
@@ -94,7 +94,7 @@ section, footer { padding: 48px 32px; }
 
 /* SECTION 6 - footer: 3 columns, the first at the left edge,
    the last at the right edge; they wrap when the window is narrow. */
-/* why: */
+/* why: the footer already worked*/
 .footer {
 }
 
