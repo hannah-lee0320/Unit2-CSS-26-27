@@ -68,7 +68,8 @@
 }
 
 .l8 .title {
-   grid-column: span 3;
+   /* grid-column: span 3; */
+   grid-column: 1 / -1;
 }
 
 /* BONUS · The GameHub footer ▸ 2fr 1fr 1fr, 16px gaps, full-width bottom bar (TWO rules) */
@@ -80,5 +81,5 @@
 }
 
 .l9 .bottom {
-   grid-column: span 3;
+   grid-column: 1/-1;
 }
